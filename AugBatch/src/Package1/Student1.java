@@ -1,9 +1,9 @@
-package package1;
+package Package1;
 
-public class Student {
+import Package1.Student1;
 
-	
-    int age;
+public class Student1 {
+	int age;
     int rollNo;
 public void display1() {
 	
@@ -18,7 +18,7 @@ public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 // ClassName refeVarName = new className();
-Student ob = new Student();
+Student1 ob = new Student1();
 //Calling statement to call a method 
 ob.age=17;
 ob.rollNo=8;
@@ -26,9 +26,8 @@ ob.rollNo=8;
 ob.display1();
 ob.display2();
 System.out.println("The age is:"+ob.age);
-System.out.println("RollNo is:"+ob.rollNo);
-
-
-
+System.out.println("RollNo is:"+ob.rollNo);	
+	
 }
+
 }
